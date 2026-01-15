@@ -9,7 +9,7 @@ export const songs = [
   },
   {
     id: 1,
-    title: "Headphones on",
+    title: "Headphones On",
     artist: "Addison Rae",
     duration: "4:00",
     cover_art: "cover-arts/headphones-on.jpeg",
