@@ -1,6 +1,6 @@
 export const MetadataContent = ({ song }) => (
   <div className="flex gap-2 pr-6 text-sm">
-    <span>{song.title}</span>
+    <span className="font-semibold">{song.title}</span>
     <span>-</span>
     <span>{song.artist}</span>
     <span>•</span>
