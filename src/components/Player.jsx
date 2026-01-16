@@ -137,8 +137,10 @@ export const Player = ({ currentSong, songNumber, setSongNumber }) => {
         </div>
       </div>
 
+      {/* Metadata marquee animation */}
       <MetadataAnimation currentSong={currentSong} />
 
+      {/* Playlist */}
       <Playlist playSong={playSongFromPlaylist} />
     </div>
   );
